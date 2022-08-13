@@ -3,18 +3,24 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Hi! I'm Nitish 👋
 subtitle: ''
-description: ''
+description: >
+  I love building stuff! I invest a ton of time in exploring open source 
+  projects, reading blogs and building stuff trying to expand my knowledge
+  beyond common software development problems. I currently work as a software
+  developer at BLKBOX.ai, building tools that automate the complete online 
+  advertising business. I asprire to work with teams that aim to solve the world's
+  humanitarian problems!
 keywords:
-author: John Doe
+author: Nitish Gupta
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -103,3 +109,25 @@ theme: cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+# Theme confi
+theme_config:
+  colorscheme: white
+
+  nav:
+    home: /
+    projects: projects/
+    articles: /writings/
+    about: /about/
+
+  posts_overview:
+    show_all_posts: false
+    post_count: 5
+
+  social_links:
+    github: http://github.com/imnitishng
+    twitter: http://twitter.com/imnitishng
+    linkedin: https://www.linkedin.com/in/nitishgupta9
+    stack-overflow: https://stackoverflow.com/users/11556881/nitish-gupta
+    mail: mailto:imnitish.ng@gmail.com
