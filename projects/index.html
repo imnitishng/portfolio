@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="Open Source1. Caching in pack CLI☀️This was a large sized project for Google Summer of Code 2022 at CNCF pack is a CNCF project used to build OCI images from your apps source code automatically withou">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Projects">
+<meta property="og:url" content="http://example.com/projects/index.html">
+<meta property="og:site_name" content="Hi! I&#39;m Nitish 👋">
+<meta property="og:description" content="Open Source1. Caching in pack CLI☀️This was a large sized project for Google Summer of Code 2022 at CNCF pack is a CNCF project used to build OCI images from your apps source code automatically withou">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/images/pack_wo_cache.png">
+<meta property="og:image" content="http://example.com/images/pack_w_cache.png">
+<meta property="og:image" content="https://chaoss.github.io/grimoirelab-tutorial/assets/grimoirelab-all.png">
+<meta property="og:image" content="https://img.youtube.com/vi/CA3_f0qclTU/0.jpg">
+<meta property="og:image" content="http://example.com/images/retina_sample.png">
+<meta property="article:published_time" content="2017-08-21T02:49:42.000Z">
+<meta property="article:modified_time" content="2022-09-06T20:34:56.248Z">
+<meta property="article:author" content="Nitish Gupta">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/pack_wo_cache.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>Projects</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/projects/">Projects</a></li><!--
+     --><!--
+       --><li><a href="/writings/">Writing</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/hello-world/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/projects/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/projects/&text=Projects"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/projects/&title=Projects"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/projects/&is_video=false&description=Projects"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Projects&body=Check out this article: http://example.com/projects/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/projects/&title=Projects"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/projects/&title=Projects"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/projects/&title=Projects"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/projects/&title=Projects"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/projects/&name=Projects&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/projects/&t=Projects"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Open-Source"><span class="toc-number">1.</span> <span class="toc-text">Open Source</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Caching-in-pack-CLI"><span class="toc-number">1.1.</span> <span class="toc-text">1. Caching in pack CLI</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Offline-Khan-Academy"><span class="toc-number">1.2.</span> <span class="toc-text">2. Offline Khan Academy</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Add-backend-support-to-Grimoirelab-toolchain"><span class="toc-number">1.3.</span> <span class="toc-text">3. Add backend support to Grimoirelab toolchain</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-Other-OSS-work"><span class="toc-number">1.4.</span> <span class="toc-text">4.  Other OSS work</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Mattermost"><span class="toc-number">1.4.1.</span> <span class="toc-text">Mattermost</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Zulip"><span class="toc-number">1.4.2.</span> <span class="toc-text">Zulip</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Projects"><span class="toc-number">2.</span> <span class="toc-text">Projects</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Muse"><span class="toc-number">2.1.</span> <span class="toc-text">1. Muse</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-hkrnws"><span class="toc-number">2.2.</span> <span class="toc-text">2. hkrnws</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Self-Driving-Car"><span class="toc-number">2.3.</span> <span class="toc-text">3. Self Driving Car</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-Rescue-Robot"><span class="toc-number">2.4.</span> <span class="toc-text">4. Rescue Robot</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-Tourist-review-insights"><span class="toc-number">2.5.</span> <span class="toc-text">5. Tourist review insights</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-Blindness-Detection"><span class="toc-number">2.6.</span> <span class="toc-text">6. Blindness Detection</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Projects
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Nitish Gupta</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2017-08-21T02:49:42.000Z" itemprop="datePublished">2017-08-21</time>
+        
+      
+    </div>
+
+
+      
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h2 id="Open-Source"><a href="#Open-Source" class="headerlink" title="Open Source"></a>Open Source</h2><h3 id="1-Caching-in-pack-CLI"><a href="#1-Caching-in-pack-CLI" class="headerlink" title="1. Caching in pack CLI"></a>1. <a target="_blank" rel="noopener" href="https://github.com/buildpacks/pack">Caching in pack CLI</a></h3><p>☀️This was a large sized project for <a target="_blank" rel="noopener" href="https://summerofcode.withgoogle.com/programs/2022/projects/69nLAdPo">Google Summer of Code 2022</a> at <a target="_blank" rel="noopener" href="https://www.cncf.io/">CNCF</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/buildpacks/pack">pack</a> is a <a target="_blank" rel="noopener" href="https://www.cncf.io/">CNCF</a> project used to build OCI images from your apps source code automatically without the need to write any docker config files.</p>
+<p>I was responsible for implementing new cache flags and a new cache type: bind cache to speed up the build process during subsequent builds.</p>
+<figure class="highlight bash"><figcaption><span>Converting the source code of a node server to docker image runnable on any cloud</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pack build test-app --path=<span class="string">&quot;/OSS/pack-test/node-server&quot;</span> --buildpack=<span class="string">&quot;/OSS/pack-test/node-server&quot;</span> --cache=<span class="string">&quot;type=build;format=bind;name=./bindcache&quot;</span></span><br></pre></td></tr></table></figure>
+<p>Building a simple node server’s app image from source code for the first time<br><img src="/images/pack_wo_cache.png" alt="pack without command"><br>Build time improvement while building same app image <strong>using bind caches</strong><br><img src="/images/pack_w_cache.png" alt="pack with cache"><br>👨‍💻<a target="_blank" rel="noopener" href="https://github.com/buildpacks/pack/commits?author=imnitishng">Here’s all of the work done for the same</a></p>
+<h3 id="2-Offline-Khan-Academy"><a href="#2-Offline-Khan-Academy" class="headerlink" title="2. Offline Khan Academy"></a>2. <a target="_blank" rel="noopener" href="https://github.com/openzim/zim-requests/issues/327">Offline Khan Academy</a></h3><p><a target="_blank" rel="noopener" href="https://www.kiwix.org/en/">Kiwix</a> is on a mission to download the internet and serve it offline to the underprivileged, Kiwix is already the largest offline distributor of Wikipedia to date, you can download the entirety of Wikipedia <a target="_blank" rel="noopener" href="https://wiki.kiwix.org/wiki/Content_in_all_languages">from here</a> and <a target="_blank" rel="noopener" href="https://www.vice.com/en/article/dyzxgm/you-can-download-the-entirely-of-english-wikipedia-to-browse-offline-using-kiwix">carry it offline</a> anywhere as <code>.zim</code> files that run on <a target="_blank" rel="noopener" href="https://www.kiwix.org/en/download/">Kiwix Browser</a>.</p>
+<p>I worked with the organization to bring the entire <a target="_blank" rel="noopener" href="https://www.khanacademy.org/">Khan Acacdemy</a> offline, the <a target="_blank" rel="noopener" href="https://github.com/openzim/zim-requests/issues/327">project</a> was split into many parts</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://github.com/openzim/kolibri/commits?author=imnitishng">Improvements to the python scraper</a></li>
+<li>Bringing <a target="_blank" rel="noopener" href="https://www.khanacademy.org/math/cc-2nd-grade-math/cc-2nd-place-value/cc-2nd-skip-counting/e/skip-counting-by-10s">interactive exercises</a> from Khan Academy offline to <a target="_blank" rel="noopener" href="https://github.com/imnitishng/standalone-perseus">standalone HTML files</a><ul>
+<li>Live sample of the work done here to bring <a target="_blank" rel="noopener" href="https://www.khanacademy.org/math/cc-fourth-grade-math/imp-measurement-and-data-2/imp-converting-units-of-mass/a/us-customary-units-of-mass-review">this Khan academy interactive exercise and article content</a> offine, running as <a href="/misc/standalone_perseus/index">standalone HTML content on the browser</a>✨</li>
+</ul>
+</li>
+<li>Integrating the scraper with pipelines that serve <code>.zim</code> files for download</li>
+</ol>
+<p>🌈 Fun fact: This project was supposed to be in GSoC 2021, but it didn’t make the cut in final shortlisted projects, but I decided to complete it anyway outside of the program.</p>
+<h3 id="3-Add-backend-support-to-Grimoirelab-toolchain"><a href="#3-Add-backend-support-to-Grimoirelab-toolchain" class="headerlink" title="3. Add backend support to Grimoirelab toolchain"></a>3. <a target="_blank" rel="noopener" href="https://github.com/chaoss/grimoirelab-elk/commits?author=imnitishng">Add backend support to Grimoirelab toolchain</a></h3><p>Grimoirelab toolchain consists of tools that <a target="_blank" rel="noopener" href="https://github.com/chaoss/grimoirelab-perceval">fetch data</a> from various sources (github, slack, twitter, etc.), <a target="_blank" rel="noopener" href="https://github.com/chaoss/grimoirelab-elk">enrich it</a> and <a target="_blank" rel="noopener" href="https://github.com/chaoss/grimoirelab-sigils">display insights</a> as dashboards using the <a target="_blank" rel="noopener" href="https://www.elastic.co/what-is/elk-stack">ELK stack</a>.</p>
+<p>I contributed to various GrimoireLab toolchain projects under <a target="_blank" rel="noopener" href="https://chaoss.community/">CHAOSS</a> organization</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/chaoss/grimoirelab-elk/commits?author=imnitishng">Create data enricher</a> for Elasticsearch indexes from raw data fetched by <a target="_blank" rel="noopener" href="https://gitter.im/">Gitter</a> and <a target="_blank" rel="noopener" href="https://launchpad.net/">Launchpad</a>.</li>
+<li>Add support for fetching data into the toolchain from Gitter and Bitbucket APIs</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/chaoss/grimoirelab-sigils/pull/443">Add data visualization panels</a> for Gitter backend</li>
+</ul>
+<p><img src="https://chaoss.github.io/grimoirelab-tutorial/assets/grimoirelab-all.png" alt="The Grimoirelab Toolchain"></p>
+<center>The Grimoirelab Toolchain</center>
+
+<h3 id="4-Other-OSS-work"><a href="#4-Other-OSS-work" class="headerlink" title="4.  Other OSS work"></a>4.  Other OSS work</h3><h4 id="Mattermost"><a href="#Mattermost" class="headerlink" title="Mattermost"></a>Mattermost</h4><p>Explore <a target="_blank" rel="noopener" href="https://github.com/mattermost/mattermost-server">mattermost server</a> written in GO to learn more about SQL to GO struct mappings, alongwith modern scalable software observability measures like standard logging, caching and metrics.</p>
+<h4 id="Zulip"><a href="#Zulip" class="headerlink" title="Zulip"></a>Zulip</h4><p><a target="_blank" rel="noopener" href="https://github.com/zulip/zulip">Zulip server</a> is a Django application that powers all of Zulip, implemented a job runner using Django that dispatches scheduled and instant mails inspired by the <a target="_blank" rel="noopener" href="https://github.com/zulip/zulip/tree/main/zerver/management/commands">job management commands</a> from Zulip server. </p>
+<h2 id="Projects"><a href="#Projects" class="headerlink" title="Projects"></a>Projects</h2><h3 id="1-Muse"><a href="#1-Muse" class="headerlink" title="1. Muse"></a>1. Muse</h3><p><a target="_blank" rel="noopener" href="https://github.com/imnitishng/muse">Muse</a> is responsible to generate intelligent music recommendations based on song lyrics, the web app is powered by modern web technologies and deep learning algorithms that embed text and generating recommendations.</p>
+<ul>
+<li>Write web scrapers to scrape and save song lyrics from different websites to avoid relying on paid third party APIs for lyrics.</li>
+<li>Supports custom and state of the art NLP models to generate similarity embeddings that fuel the recommendations engine.</li>
+<li>Project follows modern CI&#x2F;CD pipelines measures and test driven development alongwith fully documented components.</li>
+</ul>
+<center><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBbPGfJUQogPVOnNpgweyV2%2FMuse%3Fnode-id%3D0%253A1" allowfullscreen></iframe></center>
+
+<h3 id="2-hkrnws"><a href="#2-hkrnws" class="headerlink" title="2. hkrnws"></a>2. hkrnws</h3><p><a target="_blank" rel="noopener" href="https://github.com/imnitishng/hkrnws">hkrnws</a> is a <a href="news.ycombinator.com">hackernews</a> client for fetching top posts and serve them chronologically with user management features specific features.</p>
+<ul>
+<li>Secure login signup and data serialization</li>
+<li>Management commands for fetching and updating data periodically</li>
+</ul>
+<h3 id="3-Self-Driving-Car"><a href="#3-Self-Driving-Car" class="headerlink" title="3. Self Driving Car"></a>3. Self Driving Car</h3><p><a target="_blank" rel="noopener" href="https://github.com/imnitishng/SelfDrivingCar">Self Driving Car</a> was a college project which revolved around building a Car that would self drive around an arbitrary path provided the path boundaries were kept standard.<br> For our project the path was decided to be anything between two sheets of paper (or anything between two white edges in computer vision terms), a here is a brief summary of the project </p>
+<ul>
+<li>Interfacing hardware and building the Car (Raspberry Pi 3 + Arduino Uno + Motor Drivers + General hardware for car)</li>
+<li>Training the Convolutional Neural Network by running the car through our custom track to collect image data</li>
+<li>Run the car automatically any arbitrary shaped track based on the steering predictions made by the model, moreover have additional features like object detection for stopping the car<br> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=CA3_f0qclTU"><img src="https://img.youtube.com/vi/CA3_f0qclTU/0.jpg" alt="Self Driving Car in action"></a></li>
+</ul>
+<h3 id="4-Rescue-Robot"><a href="#4-Rescue-Robot" class="headerlink" title="4. Rescue Robot"></a>4. Rescue Robot</h3><p>Project built for the <a target="_blank" rel="noopener" href="https://portal.e-yantra.org/">e-yantra robotics competition</a> organised by IIT Bombay. The primary objective was to provide an efficient solution for a search and rescue operation in case of an emergency in an urban area. The project involved </p>
+<ul>
+<li>Mapping a bird’s eye view roads and buildings of a city to a maze annotated by number of people in the trapped in buildings<ul>
+<li>The solution involved building a fast and efficient path planning algorithm for our bot, various image manipulation techniques used for navigation of the bot.</li>
+</ul>
+</li>
+<li>Extensive embedded C bit-level programming to establish communication with the ground station and the bot whilst avoiding dynamic obstacles in the path</li>
+</ul>
+<h3 id="5-Tourist-review-insights"><a href="#5-Tourist-review-insights" class="headerlink" title="5. Tourist review insights"></a>5. Tourist review insights</h3><p><a target="_blank" rel="noopener" href="https://github.com/imnitishng/sentiment_analysis_insights_tourist">Tourist review insights project</a> was a part of Sentiment Analysis problem statement in the <a target="_blank" rel="noopener" href="https://www.hackerearth.com/challenges/hackathon/hcl-lucknow-ai-hackathon/">HCL Hackerearth 2019 AI Hackathon</a>. The project consisted of</p>
+<ul>
+<li>Web scraping data scripts from various review sources over the internet, <code>~30k</code> reviews of hotels, attractions.</li>
+<li>Train a language model then transfer learn over it to boost the final classifier accuracy to <code>~0.97</code>. </li>
+<li>Implement topic obtain insights and keywords of interest, present the data with plotting techniques.</li>
+</ul>
+<h3 id="6-Blindness-Detection"><a href="#6-Blindness-Detection" class="headerlink" title="6. Blindness Detection"></a>6. Blindness Detection</h3><p>The project was a part of my solution to the <a target="_blank" rel="noopener" href="https://www.kaggle.com/c/aptos2019-blindness-detection">Kaggle’s ATPOS Blindness Detection Competition</a>, the idea was to classify human Retina images into 4 categories representing severity of the disease. <a target="_blank" rel="noopener" href="https://github.com/imnitishng/ATPOS_blindness_detection_solution">My submission</a> involved various image preprocessing techniques alongwith heavy augmentations for models used (ResNet50, Google EfficientNet B3).<br><img src="/images/retina_sample.png" alt="Some retina image samples from the dataset"></p>
+<center>Some retina image samples from the dataset</center>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/writings/">Writing</a></li>
+         
+          <li><a href="/about/">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Open-Source"><span class="toc-number">1.</span> <span class="toc-text">Open Source</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Caching-in-pack-CLI"><span class="toc-number">1.1.</span> <span class="toc-text">1. Caching in pack CLI</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Offline-Khan-Academy"><span class="toc-number">1.2.</span> <span class="toc-text">2. Offline Khan Academy</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Add-backend-support-to-Grimoirelab-toolchain"><span class="toc-number">1.3.</span> <span class="toc-text">3. Add backend support to Grimoirelab toolchain</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-Other-OSS-work"><span class="toc-number">1.4.</span> <span class="toc-text">4.  Other OSS work</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Mattermost"><span class="toc-number">1.4.1.</span> <span class="toc-text">Mattermost</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Zulip"><span class="toc-number">1.4.2.</span> <span class="toc-text">Zulip</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Projects"><span class="toc-number">2.</span> <span class="toc-text">Projects</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Muse"><span class="toc-number">2.1.</span> <span class="toc-text">1. Muse</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-hkrnws"><span class="toc-number">2.2.</span> <span class="toc-text">2. hkrnws</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Self-Driving-Car"><span class="toc-number">2.3.</span> <span class="toc-text">3. Self Driving Car</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-Rescue-Robot"><span class="toc-number">2.4.</span> <span class="toc-text">4. Rescue Robot</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-Tourist-review-insights"><span class="toc-number">2.5.</span> <span class="toc-text">5. Tourist review insights</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-Blindness-Detection"><span class="toc-number">2.6.</span> <span class="toc-text">6. Blindness Detection</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/projects/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/projects/&text=Projects"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/projects/&title=Projects"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/projects/&is_video=false&description=Projects"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Projects&body=Check out this article: http://example.com/projects/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/projects/&title=Projects"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/projects/&title=Projects"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/projects/&title=Projects"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/projects/&title=Projects"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/projects/&name=Projects&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/projects/&t=Projects"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2022
+    Nitish Gupta
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/projects/">Projects</a></li><!--
+     --><!--
+       --><li><a href="/writings/">Writing</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
