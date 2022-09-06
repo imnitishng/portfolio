@@ -51,7 +51,6 @@ Explore [mattermost server](https://github.com/mattermost/mattermost-server) wri
 #### Zulip
 [Zulip server](https://github.com/zulip/zulip) is a Django application that powers all of Zulip, implemented a job runner using Django that dispatches scheduled and instant mails inspired by the [job management commands](https://github.com/zulip/zulip/tree/main/zerver/management/commands) from Zulip server. 
 
-
 ## Projects
 
 
@@ -60,6 +59,8 @@ Explore [mattermost server](https://github.com/mattermost/mattermost-server) wri
 - Write web scrapers to scrape and save song lyrics from different websites to avoid relying on paid third party APIs for lyrics.
 - Supports custom and state of the art NLP models to generate similarity embeddings that fuel the recommendations engine.
 - Project follows modern CI/CD pipelines measures and test driven development alongwith fully documented components.
+
+<center><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBbPGfJUQogPVOnNpgweyV2%2FMuse%3Fnode-id%3D0%253A1" allowfullscreen></iframe></center>
 
 ### 2. hkrnws
 [hkrnws](https://github.com/imnitishng/hkrnws) is a [hackernews](news.ycombinator.com) client for fetching top posts and serve them chronologically with user management features specific features.
@@ -74,4 +75,19 @@ Explore [mattermost server](https://github.com/mattermost/mattermost-server) wri
  - Run the car automatically any arbitrary shaped track based on the steering predictions made by the model, moreover have additional features like object detection for stopping the car
  [![Self Driving Car in action](https://img.youtube.com/vi/CA3_f0qclTU/0.jpg)](https://www.youtube.com/watch?v=CA3_f0qclTU)
 
- 
+### 4. Rescue Robot
+Project built for the [e-yantra robotics competition](https://portal.e-yantra.org) organised by IIT Bombay. The primary objective was to provide an efficient solution for a search and rescue operation in case of an emergency in an urban area. The project involved 
+- Mapping a bird's eye view roads and buildings of a city to a maze annotated by number of people in the trapped in buildings
+    - The solution involved building a fast and efficient path planning algorithm for our bot, various image manipulation techniques used for navigation of the bot.
+- Extensive embedded C bit-level programming to establish communication with the ground station and the bot whilst avoiding dynamic obstacles in the path
+
+### 5. Tourist review insights
+[Tourist review insights project](https://github.com/imnitishng/sentiment_analysis_insights_tourist) was a part of Sentiment Analysis problem statement in the [HCL Hackerearth 2019 AI Hackathon](https://www.hackerearth.com/challenges/hackathon/hcl-lucknow-ai-hackathon/). The project consisted of
+- Web scraping data scripts from various review sources over the internet, `~30k` reviews of hotels, attractions.
+- Train a language model then transfer learn over it to boost the final classifier accuracy to `~0.97`. 
+- Implement topic obtain insights and keywords of interest, present the data with plotting techniques.
+
+### 6. Blindness Detection
+The project was a part of my solution to the [Kaggle's ATPOS Blindness Detection Competition](https://www.kaggle.com/c/aptos2019-blindness-detection), the idea was to classify human Retina images into 4 categories representing severity of the disease. [My submission](https://github.com/imnitishng/ATPOS_blindness_detection_solution) involved various image preprocessing techniques alongwith heavy augmentations for models used (ResNet50, Google EfficientNet B3).
+![Some retina image samples from the dataset](/images/retina_sample.png)
+<center>Some retina image samples from the dataset</center>
