@@ -1,0 +1,3 @@
+[submodule "themes/cactus/source/misc/standalone-perseus"]
+	path = themes/cactus/source/misc/standalone-perseus
+	url = https://github.com/imnitishng/standalone-perseus
