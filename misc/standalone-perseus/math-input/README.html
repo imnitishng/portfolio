@@ -1,0 +1,16 @@
+<h1 id="math-input"><a href="#math-input" class="headerlink" title="math-input"></a>math-input</h1><p>Khan Academy’s new expression editor for the mobile web. Used in the <a href="https://github.com/khan/perseus">Perseus</a> exercise framework to power math input and expression editing on small screens.</p>
+<p>Built with <a href="https://github.com/facebook/react">React</a>, <a href="https://github.com/reactjs/redux">Redux</a>, <a href="https://github.com/mathquill/mathquill">MathQuill</a>, <a href="https://github.com/khan/aphrodite">Aphrodite</a>, and more.</p>
+<p><img src="https://cloud.githubusercontent.com/assets/1309177/15994911/d1acd29e-30c5-11e6-9707-6bef8e69114f.gif"></p>
+<p>Try it yourself on <a href="https://www.khanacademy.org/math/algebra-basics/alg-basics-algebraic-expressions/alg-basics-distributive-property/e/distributive-property-with-variables">Khan Academy</a>. (Note: you’ll need to enable mobile emulation, if you’re accessing the site from a desktop browser.)</p>
+<h2 id="Supported-Features"><a href="#Supported-Features" class="headerlink" title="Supported Features"></a>Supported Features</h2><ul>
+<li>Multiple keypad configurations, so as to accommodate a range of input types (i.e., fractions&#x2F;mixed numbers, algebraic expressions).</li>
+<li>Multi-page keypads, with swipeable page navigation.</li>
+<li>Touch-and-drag interactions (as supported by the stock iOS and Android keypads).</li>
+<li>A draggable cursor with a detached handle, for fine-grained control on touch devices.</li>
+<li>Custom state transitions for the editing experience, to streamline expression entry.</li>
+</ul>
+<p><img src="https://cloud.githubusercontent.com/assets/1309177/15994912/d2b60cdc-30c5-11e6-8eb4-9086d76f327c.gif"></p>
+<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p>A live demo is available via <a href="http://khan.github.io/math-input/">GitHub Pages</a>. You can configure some of the keypad’s behaviors, along with the set of active keys, via the <a href="http://khan.github.io/math-input/custom.html">editor</a>.</p>
+<p>Note that, as the input and keypad only respond to touch events, you’ll need to enable mobile emulation (e.g., as supported by Chrome) in order to use the keypad in a desktop browser.</p>
+<p>To run the demo locally, clone the repo, <code>yarn install</code>, <code>yarn watch</code>, and open the <code>index.html</code> page. The local behaviors can similarly be customized via the editor @ <code>custom.html</code>.</p>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p><a href="http://opensource.org/licenses/MIT">MIT License</a></p>
