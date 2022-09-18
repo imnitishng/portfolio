@@ -1,6 +1,6 @@
 ---
 title: Projects
-date: 2017-08-21 02:49:42
+date: 2022-08-21 02:49:42
 tags:
 ---
 
@@ -19,7 +19,7 @@ Building a simple node server's app image from source code for the first time
 ![pack without command](/images/pack_wo_cache.png)
 Build time improvement while building same app image **using bind caches**
 ![pack with cache](/images/pack_w_cache.png)
-👨‍💻[Here's all of the work done for the same](https://github.com/buildpacks/pack/commits?author=imnitishng)
+👨‍💻[Here's the full report if you're interested](https://medium.com/@imnitish.ng/gsoc-2022-with-cncf-final-report-4bb2522d462a)
 
 
 ### 2. [Offline Khan Academy](https://github.com/openzim/zim-requests/issues/327)
@@ -74,6 +74,7 @@ Explore [mattermost server](https://github.com/mattermost/mattermost-server) wri
  - Training the Convolutional Neural Network by running the car through our custom track to collect image data
  - Run the car automatically any arbitrary shaped track based on the steering predictions made by the model, moreover have additional features like object detection for stopping the car
  [![Self Driving Car in action](https://img.youtube.com/vi/CA3_f0qclTU/0.jpg)](https://www.youtube.com/watch?v=CA3_f0qclTU)
+ <center>Go ahead, click on it, it's a YT video. I promise it's not a rickroll.</center> 
 
 ### 4. Rescue Robot
 Project built for the [e-yantra robotics competition](https://portal.e-yantra.org) organised by IIT Bombay. The primary objective was to provide an efficient solution for a search and rescue operation in case of an emergency in an urban area. The project involved 

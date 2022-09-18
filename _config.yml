@@ -119,7 +119,7 @@ theme_config:
   nav:
     home: /
     projects: projects/
-    articles: /writings/
+    articles: /archives/
     about: /about/
 
   posts_overview:
