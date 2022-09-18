@@ -132,3 +132,7 @@ theme_config:
     linkedin: https://www.linkedin.com/in/nitishgupta9
     stack-overflow: https://stackoverflow.com/users/11556881/nitish-gupta
     mail: mailto:imnitish.ng@gmail.com
+
+  google_analytics:
+    enabled: true
+    id: G-VGSQN0B2KD

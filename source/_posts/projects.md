@@ -73,8 +73,8 @@ Explore [mattermost server](https://github.com/mattermost/mattermost-server) wri
  - Interfacing hardware and building the Car (Raspberry Pi 3 + Arduino Uno + Motor Drivers + General hardware for car)
  - Training the Convolutional Neural Network by running the car through our custom track to collect image data
  - Run the car automatically any arbitrary shaped track based on the steering predictions made by the model, moreover have additional features like object detection for stopping the car
- [![Self Driving Car in action](https://img.youtube.com/vi/CA3_f0qclTU/0.jpg)](https://www.youtube.com/watch?v=CA3_f0qclTU)
- <center>Go ahead, click on it, it's a YT video. I promise it's not a rickroll.</center> 
+ 
+ <iframe width="728" height="410" src="https://www.youtube.com/embed/CA3_f0qclTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 4. Rescue Robot
 Project built for the [e-yantra robotics competition](https://portal.e-yantra.org) organised by IIT Bombay. The primary objective was to provide an efficient solution for a search and rescue operation in case of an emergency in an urban area. The project involved 
